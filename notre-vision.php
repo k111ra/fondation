@@ -40,14 +40,15 @@
 
             <div class="row">
                 <aside class="col-md-4 blog-sidebar">
-                   
+
                     <div class="sidebar-box ftco-animate fadeInUp ftco-animated">
                         <h3 class="heading-2">Information Générale</h3>
-                        <ul class="categories">
-                            <li><a href="#">Lettre du président </a></li>
-                            <li><a href="#">Notre Vision </a></li>
-                            <li><a href="#">Nos Projets </a></li>                            
-                            <li><a href="#">Contactez-Nous </a></li>
+                        <ul class="categories" id="myDIV">
+                            <li><a class="btn" href="mot_president.php">Lettre du président </a></li>
+                            <li><a class="btn active" href="notre-vision.php">Notre Vision </a></li>
+                            <li><a class="btn" href="#">Nos Projets </a></li>
+                            <li><a class="btn" href="#">Nos Equipe </a></li>
+                            <li><a class="btn" href="#">Contactez-Nous </a></li>
                         </ul>
                     </div>
 
@@ -60,6 +61,23 @@
                         </ol>
                     </div>
                 </aside><!-- /.blog-sidebar -->
+                <style>
+                    /* Style the buttons */
+                    .btn {
+                        border: none;
+                        outline: none;
+                        padding: 10px 16px;
+                        background-color: #f1f1f1;
+                        cursor: pointer;
+                    }
+
+                    /* Style the active class (and buttons on mouse-over) */
+                    .active,
+                    .btn:hover {
+                        background-color: #666;
+                        color: white;
+                    }
+                </style>
 
                 <div class="col-md-8 blog-main">
                     <h2 style="font-family: Georgia,serif; font-size:13px; line-height:15px; font-style: italic; color:black; text-align: center;">
@@ -74,16 +92,17 @@
 
                     </h3>
                     <div class="blog-post">
+                        <h4>DES MISSIONS PLURIDIMENSIONNELLES AU BENEFICE DES FAMILLES</h4>
+                        <p>Promouvoir la préservation de la stabilité familiale du foyer (planning familiale, fidélité dans le mariage etc…) </p>
+                        <p>Promouvoir la protection de la femme et l’enfant abandonné</p>
+                        <p>Lutte contre la violence conjugale et le viol</p>
+                        <p>Réinsertion de la jeune fille mère</p>
+                        <p>Lutter contre les divorces et séparations</p>
+                        <p>Promouvoir l’éducation, la formation, l’alphabétisation et la scolarisation de la petite fille</p>
+                        <p>Lutter contre les mutilations génitales féminines</p>
 
-                        <p> <img style="float: left; padding-right:5px;" src="images/Conference-Fondation-Kouyo-0009.jpg" alt="" width="300px" > This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-                        <hr>
-                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                        <blockquote>
-                            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </blockquote>
-                                             
-                        
-                           
+
+
                     </div><!-- /.blog-post -->
 
 
