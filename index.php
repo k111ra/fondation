@@ -177,7 +177,7 @@
             <div class="item">
               <div class="testimony-wrap pb-4">
                 <div class="text">
-                  <p class="mb-4">Nous vous remercions d’avoir pensé à nos populations en ces moments difficiles. Votre action cadre avec notre approche de solidarité</p>
+                  <p class="mb-4">Nous vous remercions d’avoir pensé à nos populations en ces moments difficiles. Votre action cadre avec notre approche de solidarité. <br>.</p>
                 </div>
                 <div class="d-flex">
                   <div class="user-img" style="background-image: url(images/1531851508M-DANHO-CLAUDE-PAULIN-3-[1].jpg)">
@@ -199,7 +199,7 @@
                   </div>
                   <div class="pos ml-3">
                     <p class="name">Jean Baptiste OUEDRAOGO</p>
-                    <span class="position">Directeur du Département <br> de la Coopération au Développement du Conseil de l'Entente.</span>
+                    <span class="position">Directeur du Département de la Coopération au Développement du Conseil de l'Entente.</span>
                   </div>
                 </div>
               </div>

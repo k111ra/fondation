@@ -64,11 +64,11 @@
                 <div class="col-md-8 blog-main">
                     <h2 style="font-family: Georgia,serif; font-size:13px; line-height:15px; font-style: italic; color:black; text-align: center;">
                         <span class="line" style="width: 30px; height:1px; background-color:black; display:inline-block; margin: 0 5px 3px 5px"></span>
-                        Qui Sommes Nous
+                        Notre Vision
                         <span class="line" style="width: 30px; height:1px; background-color:black; display:inline-block; margin: 0 5px 3px 5px"></span>
                     </h2>
                     <h3 class="pb-4 mb-4 ">
-                        Lettre du Président-Fondateur de la Fondation KOUYO
+                        Mot du Président-Fondateur de la Fondation KOUYO
                         <hr style="border-top: 3px solid #bbb;">
                         <a class="print" style="background: url(images/icons8-impression-64.png) no-repeat 0 2px; float:right; padding: 0 0 0 15px; text-decoration: none; color:black; font-family:helvetica,sans-serif; font-size:15px;position:relative; left:0; top:0;" href="#" onclick="window.print(); return false;">Imprimer</a>
 
