@@ -5,7 +5,7 @@
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2"><img src="images/logo-fondation.png" alt="" width="300px"></h2>
               <h2 class="ftco-heading-2" >Pensée du jour:</h2>
-              <p style="font-family: fantasy; font-size: x-large;"> "La famine affective déprogramme le cerveau de la femme et la rend vulnérable. Hommes donnée du temps à vos épouses"</p>
+              <p style="font-family: fantasy; font-size: x-large;"> "La famine affective déprogramme le cerveau de la femme et la rend vulnérable. Hommes donnez du temps à vos épouses"</p>
               <p class="text-right">M. Anderson KOUYO <br> President de la fondation KOUYO</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
