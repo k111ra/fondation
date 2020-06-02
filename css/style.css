@@ -9449,8 +9449,9 @@ textarea.form-control {
         top: 0;
         color: #ccc; }
     .categories li.active a, .sidelink li.active a {
-      color: #000000;
-      font-style: italic; }
+      color: #e9ecef;
+      /* font-style: italic;  */
+    }
 
 #ftco-loader {
   position: fixed;

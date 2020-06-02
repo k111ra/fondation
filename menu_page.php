@@ -17,13 +17,13 @@
                 <a class="dropdown-item" href="mot_president.php">Lettre du Président</a>
                 <a class="dropdown-item" href="notre-vision.php">Notre Vision</a>
                 <a class="dropdown-item" href="#">Nos Projets</a>
-                <a class="dropdown-item" href="#">Nos Equipe</a>
+                <a class="dropdown-item" href="#">Nos Equipes</a>
 
               </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Que Faisont Nous
+                Que Faisons Nous
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Formation</a>

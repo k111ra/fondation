@@ -43,12 +43,12 @@
 
                     <div class="sidebar-box ftco-animate fadeInUp ftco-animated">
                         <h3 class="heading-2">Information Générale</h3>
-                        <ul class="categories" id="myDIV">
-                            <li><a class="btn" href="mot_president.php">Lettre du président </a></li>
-                            <li><a class="btn active" href="notre-vision.php">Notre Vision </a></li>
-                            <li><a class="btn" href="#">Nos Projets </a></li>
-                            <li><a class="btn" href="#">Nos Equipe </a></li>
-                            <li><a class="btn" href="#">Contactez-Nous </a></li>
+                        <ul class="categories">
+                            <li><a href="mot_president.php">Lettre du président </a></li>
+                            <li class="active"><a href="notre-vision.php">Notre Vision </a></li>
+                            <li><a href="#">Nos Projets </a></li>
+                            <li><a href="#">Nos Equipes </a></li>
+                            <li><a href="#">Contactez-Nous </a></li>
                         </ul>
                     </div>
 
@@ -79,6 +79,7 @@
                     }
                 </style>
 
+
                 <div class="col-md-8 blog-main">
                     <h2 style="font-family: Georgia,serif; font-size:13px; line-height:15px; font-style: italic; color:black; text-align: center;">
                         <span class="line" style="width: 30px; height:1px; background-color:black; display:inline-block; margin: 0 5px 3px 5px"></span>
@@ -86,14 +87,13 @@
                         <span class="line" style="width: 30px; height:1px; background-color:black; display:inline-block; margin: 0 5px 3px 5px"></span>
                     </h2>
                     <h3 class="pb-4 mb-4 ">
-                        Mot du Président-Fondateur de la Fondation KOUYO
+                        DES MISSIONS PLURIDIMENSIONNELLES AU BENEFICE DES FAMILLES
                         <hr style="border-top: 3px solid #bbb;">
-                        <a class="print" style="background: url(images/icons8-impression-64.png) no-repeat 0 2px; float:right; padding: 0 0 0 15px; text-decoration: none; color:black; font-family:helvetica,sans-serif; font-size:15px;position:relative; left:0; top:0;" href="#" onclick="window.print(); return false;">Imprimer</a>
-
                     </h3>
                     <div class="blog-post">
-                        <h4>DES MISSIONS PLURIDIMENSIONNELLES AU BENEFICE DES FAMILLES</h4>
-                        <p>Promouvoir la préservation de la stabilité familiale du foyer (planning familiale, fidélité dans le mariage etc…) </p>
+
+                        <p> Promouvoir la préservation de la stabilité familiale du foyer (planning familiale, fidélité dans le mariage etc…)</p>
+                        <hr>
                         <p>Promouvoir la protection de la femme et l’enfant abandonné</p>
                         <p>Lutte contre la violence conjugale et le viol</p>
                         <p>Réinsertion de la jeune fille mère</p>
