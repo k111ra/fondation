@@ -45,9 +45,9 @@
                         <h3 class="heading-2">Information Générale</h3>
                         <ul class="categories">
                             <li><a href="mot_president.php">Lettre du président </a></li>
-                            <li class="active"><a href="notre-vision.php">Notre Vision </a></li>
+                            <li  class="active"><a href="notre-vision.php">Notre Vision </a></li>
                             <li><a href="#">Nos Projets </a></li>
-                            <li><a href="#">Nos Equipes </a></li>
+                            <li><a href="nos_equipes.php">Nos Equipes </a></li>
                             <li><a href="#">Contactez-Nous </a></li>
                         </ul>
                     </div>
@@ -87,21 +87,59 @@
                         <span class="line" style="width: 30px; height:1px; background-color:black; display:inline-block; margin: 0 5px 3px 5px"></span>
                     </h2>
                     <h3 class="pb-4 mb-4 ">
-                        DES MISSIONS PLURIDIMENSIONNELLES AU BENEFICE DES FAMILLES
+                        3 Visions
                         <hr style="border-top: 3px solid #bbb;">
                     </h3>
+
                     <div class="blog-post">
-
-                        <p> Promouvoir la préservation de la stabilité familiale du foyer (planning familiale, fidélité dans le mariage etc…)</p>
+                        <div class="container px-lg-5">
+                            <h5>DES MISSIONS PLURIDIMENSIONNELLES AU BENEFICE DES FAMILLES</h5>
+                            <hr>
+                            <div class="row mx-lg-n5">
+                                <div class="col py-3 px-lg-5 ">
+                                    <p>Promouvoir la protection de la femme et l’enfant abandonné
+                                        <br>Lutte contre la violence conjugale et le viol
+                                        <br> Réinsertion de la jeune fille mère
+                                        <br> Lutter contre les divorces et séparations
+                                        <br> Promouvoir l’éducation, la formation, l’alphabétisation et la scolarisation de la petite fille
+                                        <br> Lutter contre les mutilations génitales féminines
+                                    </p>
+                                </div>
+                                <div class="col py-3 bg-light"><img src="images/couple-1030744_640.jpg" alt="" width="400px"></div>
+                            </div>
+                        </div>
                         <hr>
-                        <p>Promouvoir la protection de la femme et l’enfant abandonné</p>
-                        <p>Lutte contre la violence conjugale et le viol</p>
-                        <p>Réinsertion de la jeune fille mère</p>
-                        <p>Lutter contre les divorces et séparations</p>
-                        <p>Promouvoir l’éducation, la formation, l’alphabétisation et la scolarisation de la petite fille</p>
-                        <p>Lutter contre les mutilations génitales féminines</p>
+                        <div class="container px-lg-5">
+                            <h5>NOS VALEURS SOLIDES BATISSENT NOTRE APPROCHE VIS-A VIS DES PARTENAIRES ET DES POPULATIONS</h5>
+                            <div class="row mx-lg-n5">
+                                <div class="col py-3 bg-light"><img src="images/girl-1868930_640.jpg" alt="" width="400px"></div>
+                                <div class="col py-3 px-lg-5 ">
+                                    <p>La neutralité et l’impartialité politiques et religieuses ;
+                                        <br>La non-discrimination (sexe, ethnies, nationalité, opinions) ;
+                                        <br> L’exigence de professionnalisme dans toutes nos actions ;
+                                        <br> La transparence vis-à-vis des bénéficiaires, des partenaires ou des donateurs.
+                                        <br> La foi en notre mission et notre engagement pour le bonheur des autres.
+                                    </p>
+                                </div>
 
-
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container px-lg-5">
+                            <h5>ENSEMBLE BATISSONS DES FAMILLES MODELES</h5>
+                            <div class="row mx-lg-n5">
+                                <div class="col py-3 px-lg-5 ">
+                                    <p>Pour y arriver, elle se fonde sur une approche de partenariats sociaux et humanitaires :
+                                        Appui à la réalisation des projets
+                                        Transfert de compétence et renforcement de capacité
+                                        Tutorat et assistance
+                                        Dons
+                                        Groupement d’intérêts économiques (GIE)
+                                    </p>
+                                </div>
+                                <div class="col py-3 bg-light"><img src="images/black-and-white-2590810_640.jpg" alt="" width="400px"></div>
+                            </div>
+                        </div>
 
                     </div><!-- /.blog-post -->
 

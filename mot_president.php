@@ -47,7 +47,7 @@
                             <li class="active"><a href="mot_president.php">Lettre du président </a></li>
                             <li><a href="notre-vision.php">Notre Vision </a></li>
                             <li><a href="#">Nos Projets </a></li>
-                            <li><a href="#">Nos Equipes </a></li>
+                            <li><a href="nos_equipes.php">Nos Equipes </a></li>
                             <li><a href="#">Contactez-Nous </a></li>
                         </ul>
                     </div>

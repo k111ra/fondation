@@ -17,7 +17,7 @@
                 <a class="dropdown-item" href="mot_president.php">Lettre du Président</a>
                 <a class="dropdown-item" href="notre-vision.php">Notre Vision</a>
                 <a class="dropdown-item" href="#">Nos Projets</a>
-                <a class="dropdown-item" href="#">Nos Equipes</a>
+                <a class="dropdown-item" href="nos_equipes.php">Nos Equipes</a>
 
               </div>
             </li>
