@@ -108,9 +108,8 @@
         <div class="carousel-item active">
             <img class="d-block w-100" src="images/46862.jpg" height="600px" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Titre</h5>
-                <p> NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</p>
-                <p class="text-center"><a href="#" class="btn btn-primary py-3 px-4">Rejoignez-nous </a></p>
+                <h1 class="text-right" style="color:#ffb400;"> NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</h1>
+                <p class="text-right"><a href="#" class="btn btn-primary py-3 px-4">Rejoignez-nous </a></p>
             </div>
         </div>
         <div class="carousel-item">
