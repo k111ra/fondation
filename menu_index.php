@@ -7,16 +7,16 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"><a href="/" class="nav-link">Accueil</a>        
+        <li class="nav-item active"><a href="index.php" class="nav-link">Accueil</a>        
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Qui Sommes-nous
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Mots du Président</a>
+            <a class="dropdown-item" href="mot_president.php">Mots du Président</a>
             <a class="dropdown-item" href="#">Présentation</a>
-            <a class="dropdown-item" href="#">Nos Equipes</a>
+            <a class="dropdown-item" href="nos_equipes.php">Nos Equipes</a>
 
           </div>
         </li>

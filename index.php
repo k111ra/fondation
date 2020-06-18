@@ -106,7 +106,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="images/22989.jpg" height="600px" alt="First slide">
+            <img class="d-block w-100" src="images/46862.jpg" height="600px" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Titre</h5>
                 <p> NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</p>
