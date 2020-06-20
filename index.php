@@ -60,43 +60,37 @@
     </div>
 
     <!-- <div class="hero-wrap" style="background-image: url('images/20995.jpg');" data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
-            <div class="col-md-6 order-md-last ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }" style="color: gold; ">
-                    NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</h1>
-                <p><a href="#" class="btn btn-black py-3 px-4">Comment vous aidez ?</a></p>
-            </div>
-            <div class="col-md-6 d-none d-md-block">
-                <div class="play-video pb-5 d-flex align-items-center">
-                    <p><a class="btn btn-primary" data-toggle="modal" href="#modal-video"><i
-                                class="ion-ios-play "></i></span> <span class="play" style="color: green;">Voir plus</span></a></p> -->
-    <!-- Button trigger modal -->
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+                <div class="col-md-6 order-md-last ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
+                    <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }" style="color: gold; ">
+                        NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</h1>
+                    <p><a href="#" class="btn btn-black py-3 px-4">Comment vous aidez ?</a></p>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="play-video pb-5 d-flex align-items-center">
+                        <p><a class="btn btn-primary" data-toggle="modal" href="#modal-video"><i class="ion-ios-play "></i></span> <span class="play" style="color: green;">Voir plus</span></a></p>
 
-    <!-- Modal -->
-    <!-- <div class="modal fade" id="modal-video" style="display: none;">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">close <i
-                                            class="fa fa-times"></i></button>
-                                </div>
-                                <div class="modal-body">
-                                    <iframe type="text/html" width="440" height="360"
-                                        src="https://www.youtube.com/embed/FYFPcArJfZw?rel=0?wmode=transparent&amp;fs=1&amp;rel=0&amp;enablejsapi=1&amp;version=3"
-                                        frameborder="0" allowfullscreen=""></iframe>
-                                    <p>Your video</p>
+                        <div class="modal fade" id="modal-video" style="display: none;">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">close <i class="fa fa-times"></i></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe type="text/html" width="440" height="360" src="https://www.youtube.com/embed/FYFPcArJfZw?rel=0?wmode=transparent&amp;fs=1&amp;rel=0&amp;enablejsapi=1&amp;version=3" frameborder="0" allowfullscreen=""></iframe>
+                                        <p>Your video</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>  -->
+    </div> -->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -107,10 +101,22 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="images/22989.jpg" height="600px" alt="Second slide">
+
+
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 class="text-right" style="color:#ffb400;"> NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</h1>
-                    <p class="text-right"><a href="#" class="btn btn-primary py-3 px-4">Rejoignez-nous </a></p>
+                    <div class="row">
+                       
+                        <div class="col">
+                            <h1 class="text-right" style="color:#ffb400;"> NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</h1>
+                            <p class="text-right"><a href="#" class="btn btn-primary py-3 px-4">Rejoignez-nous </a></p>
+                        </div>
+
+                    </div>
+
+
                 </div>
+
+
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="images/46862.jpg" height="600px" alt="First slide">
@@ -130,6 +136,24 @@
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
+            <div class="play-video pb-5 d-flex align-items-center">
+                            <p style="display: inline-block; transform: rotate(-90deg);" ><a class="btn btn-primary" data-toggle="modal" href="#modal-video"><i class="ion-ios-play "></i></span> <span class="play" style="color: green;">Voir plus</span></a></p>
+
+                            <div class="modal fade" id="modal-video" style="display: none;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">close <i class="fa fa-times"></i></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe type="text/html" width="440" height="360" src="https://www.youtube.com/embed/FYFPcArJfZw?rel=0?wmode=transparent&amp;fs=1&amp;rel=0&amp;enablejsapi=1&amp;version=3" frameborder="0" allowfullscreen=""></iframe>
+                                            <p>Your video</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
