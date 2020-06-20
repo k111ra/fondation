@@ -32,7 +32,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
     <style type="text/css">
         #overlay {
-            position: fixed;
+            position: relative;
             top: 0;
             left: 0;
             width: 100%;
@@ -59,11 +59,12 @@
         }
 
         .cnt223 {
-            min-width: 600px;
-            width: 600px;
+            
+            min-width: 200px;
+            width: 400px;
             min-height: 150px;
-            margin-top: 700px;
-            background: #f3f3f3;
+            margin-top: 500px;
+            background: green;
             position: fixed;
             z-index: 103;
             padding: 15px 35px;
@@ -75,12 +76,12 @@
             clear: both;
             color: #555555;
             /* text-align: justify; */
-            font-size: 20px;
+            font-size: 14px;
             font-family: sans-serif;
         }
 
         .cnt223 p a {
-            color: #d91900;
+            color: whitesmoke;
             font-weight: bold;
         }
 
@@ -88,7 +89,7 @@
             float: right;
             height: 35px;
             left: 22px;
-            position: relative;
+            position: fixed;
             top: -25px;
             width: 34px;
         }
@@ -121,8 +122,8 @@
     </script>
     <div class='popup'>
         <div class='cnt223'>
-            <h1>Pensée du jour:</h1>
-            <p>
+            <h5 style="color:honeydew;">Pensée du jour:</h5>
+            <p style="color: honeydew;" >
                 "La famine affective déprogramme le cerveau de la femme et la rend vulnérable. Hommes donnez du temps à vos épouses"
                 <br />
                 <br />
