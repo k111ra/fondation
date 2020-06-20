@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark scrolled sleep" id="ftco-navbar" >
+<nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-dark scrolled sleep" id="ftco-navbar" >
 	    <div class="container">
 	      <a class="navbar-brand" href="index.php"> <img src="images/logo-fondation.png" alt="" width="300px"> </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">

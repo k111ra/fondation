@@ -29,106 +29,113 @@
 </head>
 
 <body>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-<style type="text/css">
-#overlay {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: #000;
-filter:alpha(opacity=70);
--moz-opacity:0.7;
--khtml-opacity: 0.7;
-opacity: 0.7;
-z-index: 100;
-display: none;
-}
-.cnt223 a{
-text-decoration: none;
-}
-.popup{
-width: 100%;
-margin: 0 auto;
-display: none;
-position: fixed;
-z-index: 101;
-}
-.cnt223{
-min-width: 600px;
-width: 600px;
-min-height: 150px;
-margin: 100px auto;
-background: #f3f3f3;
-position: relative;
-z-index: 103;
-padding: 15px 35px;
-border-radius: 5px;
-box-shadow: 0 2px 5px #000;
-}
-.cnt223 p{
-clear: both;
-    color: #555555;
-    /* text-align: justify; */
-    font-size: 20px;
-    font-family: sans-serif;
-}
-.cnt223 p a{
-color: #d91900;
-font-weight: bold;
-}
-.cnt223 .x{
-float: right;
-height: 35px;
-left: 22px;
-position: relative;
-top: -25px;
-width: 34px;
-}
-.cnt223 .x:hover{
-cursor: pointer;
-}
-</style>
-<script type='text/javascript'>
-$(function(){
-var overlay = $('<div id="overlay"></div>');
-overlay.show();
-overlay.appendTo(document.body);
-$('.popup').show();
-$('.close').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+    <style type="text/css">
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            filter: alpha(opacity=70);
+            -moz-opacity: 0.7;
+            -khtml-opacity: 0.7;
+            opacity: 0.7;
+            z-index: 1000000000;
+            display: none;
+        }
+
+        .cnt223 a {
+            text-decoration: none;
+        }
+
+        .popup {
+            width: 100%;
+            margin: 0 auto;
+            display: none;
+            position: relative;
+            z-index: 1000000001;
+        }
+
+        .cnt223 {
+            min-width: 600px;
+            width: 600px;
+            min-height: 150px;
+            margin-top: 700px;
+            background: #f3f3f3;
+            position: fixed;
+            z-index: 103;
+            padding: 15px 35px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px #000;
+        }
+
+        .cnt223 p {
+            clear: both;
+            color: #555555;
+            /* text-align: justify; */
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+
+        .cnt223 p a {
+            color: #d91900;
+            font-weight: bold;
+        }
+
+        .cnt223 .x {
+            float: right;
+            height: 35px;
+            left: 22px;
+            position: relative;
+            top: -25px;
+            width: 34px;
+        }
+
+        .cnt223 .x:hover {
+            cursor: pointer;
+        }
+    </style>
+    <script type='text/javascript'>
+        $(function() {
+            var overlay = $('<div id="overlay"></div>');
+            overlay.show();
+            overlay.appendTo(document.body);
+            $('.popup').show();
+            $('.close').click(function() {
+                $('.popup').hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            });
 
 
- 
 
-$('.x').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
-});
-</script>
-<div class='popup'>
-<div class='cnt223'>
-<h1>Pensée du jour:</h1>
-<p>
-"La famine affective déprogramme le cerveau de la femme et la rend vulnérable. Hommes donnez du temps à vos épouses"
-<br/>
-<br/>
-<a href='' class='close'>X</a>
-</p>
-</div>
-</div>
+
+            $('.x').click(function() {
+                $('.popup').hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            });
+        });
+    </script>
+    <div class='popup'>
+        <div class='cnt223'>
+            <h1>Pensée du jour:</h1>
+            <p>
+                "La famine affective déprogramme le cerveau de la femme et la rend vulnérable. Hommes donnez du temps à vos épouses"
+                <br />
+                <br />
+                <a href='' class='close'>X</a>
+            </p>
+        </div>
+    </div>
     <!-- include du menu -->
     <?php include 'menu_index.php'; ?>
     <!-- include du menu -->
     <!-- END nav -->
 
-    
+
 
     <!-- <div class="hero-wrap" style="background-image: url('images/20995.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
@@ -173,7 +180,6 @@ return false;
             <div class="carousel-item active">
                 <img class="d-block w-100" src="images/22989.jpg" height="600px" alt="Second slide">
 
-
                 <div class="carousel-caption d-none d-md-block">
                     <div class="row">
                         <div class="play-video pb-5 d-flex align-items-center">
@@ -204,21 +210,71 @@ return false;
 
 
                 </div>
-
-
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="images/46862.jpg" height="600px" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 class="text-right" style="color:#ffb400;"> NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</h1>
-                    <p class="text-right"><a href="#" class="btn btn-primary py-3 px-4">Rejoignez-nous </a></p>
+                    <div class="row">
+                        <div class="play-video pb-5 d-flex align-items-center">
+                            <p style="display: inline-block; transform: rotate(-90deg);"><a class="btn btn-primary" data-toggle="modal" href="#modal-video"><i class="ion-ios-play "></i></span> <span class="play" style="color: green;">Voir plus</span></a></p>
+
+                            <div class="modal fade" id="modal-video" style="display: none;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">close <i class="fa fa-times"></i></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe type="text/html" width="440" height="360" src="https://www.youtube.com/embed/FYFPcArJfZw?rel=0?wmode=transparent&amp;fs=1&amp;rel=0&amp;enablejsapi=1&amp;version=3" frameborder="0" allowfullscreen=""></iframe>
+                                            <p>Your video</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col">
+                            <h1 class="text-right" style="color:#ffb400;"> NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</h1>
+                            <p class="text-right"><a href="#" class="btn btn-primary py-3 px-4">Rejoignez-nous </a></p>
+                        </div>
+
+                    </div>
+
+
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="images/22989.jpg" height="600px" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Titre</h5>
-                    <p>Sous-Titre</p>
+                    <div class="row">
+                        <div class="play-video pb-5 d-flex align-items-center">
+                            <p style="display: inline-block; transform: rotate(-90deg);"><a class="btn btn-primary" data-toggle="modal" href="#modal-video"><i class="ion-ios-play "></i></span> <span class="play" style="color: green;">Voir plus</span></a></p>
+
+                            <div class="modal fade" id="modal-video" style="display: none;">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">close <i class="fa fa-times"></i></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe type="text/html" width="440" height="360" src="https://www.youtube.com/embed/FYFPcArJfZw?rel=0?wmode=transparent&amp;fs=1&amp;rel=0&amp;enablejsapi=1&amp;version=3" frameborder="0" allowfullscreen=""></iframe>
+                                            <p>Your video</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col">
+                            <h1 class="text-right" style="color:#ffb400;"> NOUS POUVONS ENSEMBLE BATIR DES FAMILLES FORTES</h1>
+                            <p class="text-right"><a href="#" class="btn btn-primary py-3 px-4">Rejoignez-nous </a></p>
+                        </div>
+
+                    </div>
+
+
                 </div>
             </div>
         </div>
