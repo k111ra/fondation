@@ -14,7 +14,7 @@
                 Qui Sommes-nous
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="mot_president.php">Lettre du Président</a>
+                <a class="dropdown-item" href="mot_president.php">Mot du Président</a>
                 <a class="dropdown-item" href="notre-vision.php">Notre Vision</a>
                 <a class="dropdown-item" href="#">Nos Projets</a>
                 <a class="dropdown-item" href="nos_equipes.php">Nos Equipes</a>
