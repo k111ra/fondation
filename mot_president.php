@@ -44,7 +44,7 @@
                 <div class="sidebar-box ftco-animate fadeInUp ftco-animated">
                         <h3 class="heading-2">Information Générale</h3>
                         <ul class="categories">
-                            <li class="active"><a href="mot_president.php">Lettre du président </a></li>
+                            <li class="active"><a href="mot_president.php">Mot du président </a></li>
                             <li><a href="notre-vision.php">Notre Vision </a></li>
                             <li><a href="#">Nos Projets </a></li>
                             <li><a href="nos_equipes.php">Nos Equipes </a></li>
@@ -87,7 +87,7 @@
                         <span class="line" style="width: 30px; height:1px; background-color:black; display:inline-block; margin: 0 5px 3px 5px"></span>
                     </h2>
                     <h3 class="pb-4 mb-4 ">
-                        Lettre du Président-Fondateur de la Fondation KOUYO
+                        Mot du Président-Fondateur de la Fondation KOUYO
                         <hr style="border-top: 3px solid #bbb;">
                         
 
