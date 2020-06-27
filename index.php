@@ -179,7 +179,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="images/22989.jpg" height="600px" alt="Second slide">
+                <img class="d-block w-100" src="images/22989.jpg" style="object-fit: cover; width: 100%;height: 600px;" alt="Second slide">
 
                 <div class="carousel-caption d-none d-md-block">
                     <div class="row">
@@ -213,7 +213,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/46862.jpg" height="600px" alt="First slide">
+                <img class="d-block w-100" src="images/IMG_2087.JPG" style="object-fit: cover; width: 100%;height: 600px;"  alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
                     <div class="row">
                         <div class="play-video pb-5 d-flex align-items-center">
@@ -246,7 +246,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/22989.jpg" height="600px" alt="Third slide">
+                <img class="d-block w-100" src="images/22989.jpg" style="object-fit: cover; width: 100%;height: 600px;" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <div class="row">
                         <div class="play-video pb-5 d-flex align-items-center">
@@ -299,8 +299,7 @@
                             <div style="padding-bottom: 80px;"></div>
                             <div class="text py-5 pl-md-6 pr-md-3" style="padding-top: 40px;">
                                 <h2 class="mb-4">Mots Du Président</h2>
-                                <p style="color: teal;">Ensemble bâtissons des familles modèles pour renforcer et préserver
-                                    leur stabilité. Sans stabilité, il sera difficile de préserver une famille heureuse.</p>
+                                <p style="color: teal;">Ensemble bâtissons des familles modèles pour renforcer et préserver leur stabilité. Sans stabilité, il sera difficile de préserver une famille heureuse.</p>
                                 <p class="text-center"><a href="#" class="btn btn-primary py-3 px-4">Voir Plus</a></p>
                             </div>
                         </div>
@@ -320,9 +319,7 @@
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1 style="color:white;">Actualités.</h1>
-                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
-                                            porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id
-                                            elit.</p>
+                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                                         <p><a class="btn btn-lg btn-primary" href="#" role="button">Voir Plus</a></p>
                                     </div>
                                 </div>
